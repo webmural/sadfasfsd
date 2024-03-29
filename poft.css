@@ -4,8 +4,17 @@
 /* play */
 
 :root {
+  --tape-loud: orange;
   --tape-luvu: aquamarine;
-  --tape-blaq: blueviolet;
+  --tape-blaq: purple;
+}
+
+p:nth-child(odd) {
+
+}
+
+p:nth-child(even) {
+
 }
 
 ::selection {
@@ -23,14 +32,24 @@
   :focus { outline-color: indigo }
 }
 
-.poft {
+.ppp {
   text-shadow:
     0 1vh 0 darkviolet,
+    0 2vh 0 blueviolet,
+    -2rem -2rem 2pc rebeccapurple,
+    -1rem -1rem 1pc darkorchid,
+    3rem -3rem 3pc purple,
+    5rem -5rem 5pc #818;
+}
+
+.poft {
+  text-shadow:
+    0 1vh 0 salmon,
     0 2vh 0 salmon,
-    -2rem -2rem 2pc magenta,
-    -1rem -1rem 1pc magenta,
-    3rem -3rem 3pc cyan,
-    5rem -5rem 5pc cyan;
+    -2rem -2rem 2pc orange,
+    -1rem -1rem 1pc orange,
+    3rem -3rem 3pc darkorange,
+    5rem -5rem 5pc darkorange;
 }
 
 .feet {
